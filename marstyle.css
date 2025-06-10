@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.titles h2{
+  margin: 2px 0;
+}
+
+
+.center-text {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.center-text h3, .center-text h4 {
+  margin: 4px 0;
+}
+
+.timetable table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+.timetable thead tr{
+  background-color: aqua;
+
+}
+
+.timetable th,
+.timetable td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: center;
+}
+
+.inner-table {
+  width: 100%;
+  border: none;
+}
+
+.inner-table td {
+  border: none;
+  padding: 0;
+  text-align: center;
+}
+.sub-table thead td{
+  background-color: aqua
+}
+.sub-table {
+  width: 50%; 
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 14px; 
+}
+
+.sub-table th {
+  
+  color: white;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.sub-table td {
+  padding: 6px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
